@@ -1,0 +1,28 @@
+{
+	"name": "TPetersen",
+	"authors": [
+		{
+			"name": "TPetersen"
+		}
+	],
+	"description": "Composer.json",
+	"version": "1.0",
+	"time": "2014-08-08",
+	"license": "MIT",
+	"repositories": [
+		{
+			"type": "package",
+			"package": {
+				"name": "jquery/jquery",
+				"version": "2.1.1",
+				"dist": {
+					"url": "http://code.jquery.com/jquery-2.1.1.min.js",
+					"type": "file"
+				}
+			}
+		}
+	],
+	"require": {
+		"jquery/jquery": "2.1.1"
+	}
+}

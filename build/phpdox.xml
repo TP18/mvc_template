@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<phpdox xmlns="http://phpdox.net/config">
+	<!--project name="MVCTemplate" source="${basedir}/src" workdir="${basedir}/build/api/xml"-->
+	<project name="MVCTemplate" source="${basedir}/build/src" workdir="build/phpdox/api/xml">
+		<!--collector backend="Parser"/-->
+		<collector publiconly="false">
+			<include mask="*.php"/>
+			<exclude mask="*Autoload.php"/>
+		</collector>
+
+		<!--generator output="${basedir}/build/api"-->
+		<generator output="build">
+			<!--build engine="html" enabled="true" output="html"/-->
+			<build engine="html" enabled="true" output="api"/>
+		</generator>
+	</project>
+</phpdox>

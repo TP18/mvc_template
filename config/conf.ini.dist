@@ -1,0 +1,18 @@
+[ApplicationEnvironment]
+Development = true
+
+[PATH]
+VIEW = src/TPetersen/MVCTemplate/View/
+
+[CONTROLLER]
+DEFAULT = index
+NAMESPACE = TPetersen\MVCTemplate\Controller\
+
+[ACTION]
+DEFAULT = index
+
+[Database]
+host = localhost;
+user = abc;
+password = 12345;
+dbname = dev_XXX;

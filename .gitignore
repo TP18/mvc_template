@@ -1,0 +1,7 @@
+# Untracked files:
+.*
+!.gitignore
+log/
+config/conf.ini
+vendor
+composer.lock
